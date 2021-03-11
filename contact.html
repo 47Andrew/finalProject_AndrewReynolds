@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand"><span>project5,</span>&nbsp;external script</h1>
+        <div class="wrapper animated bounceInLeft">
+            <div class="company-info">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fa fa-road"></i>Student</li>
+                    <li><i class="fa fa-phone"></i> (863)582-6787</li>
+                    <li><i class="fa fa-envelope"></i>areyno23@baker.edu</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <form id="my_form" onsubmit="submitForm(); return false;">
+                    <h3>Email Us</h3><br />
+                    <p>
+                        <label>Name</label>
+                        <input id="n" placeholder="Name" required>
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input id="e" placeholder="Email Address" type="email" required>
+                    </p>
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea id="m" rows="15" required></textarea>
+                    </p>
+					
+					<p>
+					    <input type="checkbox" name="terms" id="terms">
+						<label for="terms">I have read the terms and conditions</label>
+						</input>
+					</p>
+					
+                    <p class="full">
+                        <input style="color:black;" id="mybtn" type="submit" value="Send Message"> <span id="status"></span>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+	<script src="js/jquery_v3.5.1.js"></script>
+<div data-pro-badge-shopper-uuid=c2f707b8-8f1a-4955-bdfb-257610d61663 data-pro-badge-mode=dark style="width:200px"></div> <script defer src="https://pro.godaddy.com/static/js/badge.js"></script>
+</body>
+
+</html>
